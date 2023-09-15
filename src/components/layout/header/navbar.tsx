@@ -7,7 +7,7 @@ import Cart from './shopping-cart';
 export default function Navbar() {
 	return (
 		<div>
-			<Container className='flex justify-between items-center'>
+			<Container className='flex justify-between items-center text-white'>
 				<Hamburger />
 				<Logo />
 				<Cart />

@@ -9,7 +9,7 @@ import {
 	SheetTitle,
 	SheetTrigger,
 } from '@/components/ui/sheet';
-import { HamburgerMenuIcon } from '@radix-ui/react-icons';
+import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 
 const Cart = () => {
@@ -20,7 +20,7 @@ const Cart = () => {
 					size='icon'
 					variant='ghost'
 				>
-					<HamburgerMenuIcon className='h-5 w-5' />
+					<ShoppingCart className='h-5 w-5' />
 				</Button>
 			</SheetTrigger>
 			<SheetContent side='right'>

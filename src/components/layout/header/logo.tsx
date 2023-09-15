@@ -13,7 +13,7 @@ export default function Logo() {
 				alt='Suwone Logo'
 				height={100}
 				width={200}
-				className='w-full h-full object-contain object-center'
+				className='w-full h-full object-contain object-center invert'
 			/>
 		</Link>
 	);
