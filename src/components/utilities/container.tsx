@@ -12,7 +12,7 @@ const Container = ({
 		<div>
 			<div
 				className={cn(
-					' w-full p-3 md:p-5 max-w-7xl mx-auto',
+					' w-full p-3 xl:p-5 max-w-7xl mx-auto',
 					className
 				)}
 			>

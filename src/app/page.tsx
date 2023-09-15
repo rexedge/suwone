@@ -4,10 +4,12 @@ import LiveSection from '@/components/pages/home/live-section';
 
 export default function HomePage() {
 	return (
-		<div className=' text-background'>
+		<div className=' text-background h-[300vh]'>
 			<HeroSection />
-			<LiveSection />
-			<FactsSection />
+			<div className='relative z-10 w-full overflow-x-clip'>
+				<LiveSection />
+				<FactsSection />
+			</div>
 		</div>
 	);
 }
