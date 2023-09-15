@@ -18,7 +18,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='en'>
-			<body className={`${inter.className} relative min-h-screen`}>
+			<body
+				className={`${inter.className} relative min-h-screen bg-foreground`}
+			>
 				<div className='absolute top-0 w-full h-full'>
 					<Image
 						width={1600}
